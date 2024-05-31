@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigBoss Store</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My Css-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <h1>The BiggBoss Store</h1>
+      <div class="nav-links">
+        <p class="nav-link"><a href="index.html">Home</a></p>
+        <p class="nav-link"><a href="collection.html">Collections</a></p>
+        <p class="nav-link"><a href="contact.html">Contact Us</a></p>
+        <p class="nav-link"><a href="#about">About Us</a></p>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </div>
+    </nav>
+
+    <!-- Side Navbar-->
+    <div class="side-navbar">
+      <p style="text-align: right" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark fa-lg"></i>
+      </p>
+      <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link">
+          <a href="collection.html">Collections</a>
+        </p>
+        <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+        <p class="side-navbar-link"><a href="#about">About Us</a></p>
+      </div>
+    </div>
+
+    <div class="product-section">
+      <form class="product-search">
+        <input type="text" id="search" placeholder="Search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+      <div class="products" id="products">
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?white shirt"
+            alt=""
+          />
+          <p>White Shirt</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?Men Clothes"
+            alt=""
+          />
+          <p>Clothes</p>
+        </div>
+        <div class="products-box">
+          <img src="https://source.unsplash.com/random/200x200/?Shoe" alt="" />
+          <p>Shoes</p>
+        </div>
+        <div class="products-box">
+          <img src="https://source.unsplash.com/random/200x200/?Denim" alt="" />
+          <p>Denim Pant</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?T-Shirt"
+            alt=""
+          />
+          <p>T-Shirt</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?Fashion"
+            alt=""
+          />
+          <p>Fashion</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?Attire"
+            alt=""
+          />
+          <p>Attire</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?Outfit"
+            alt=""
+          />
+          <p>Outfit</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?Sneaker"
+            alt=""
+          />
+          <p>Sneaker</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?Trousers"
+            alt=""
+          />
+          <p>Trousers</p>
+        </div>
+        <div class="products-box">
+          <img src="https://source.unsplash.com/random/200x200/?Hat" alt="" />
+          <p>Hat</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://source.unsplash.com/random/200x200/?Jersey"
+            alt=""
+          />
+          <p>Jersey</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer Section-->
+    <div class="footer" id="about">
+      <div class="footer-section">
+        <h3>The BiggBoss Store</h3>
+        <p>
+          Terms of Service | Privacy Policy | Refund Policy | Accessibility
+          Policy
+        </p>
+        <p>
+          Follow us on || <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i> ||
+        </p>
+        <p>&copy; Copyrights Resevered by the BiggBoss Store</p>
+      </div>
+    </div>
+
+    <script src="collection.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
